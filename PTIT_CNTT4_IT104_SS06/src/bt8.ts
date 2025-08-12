@@ -1,4 +1,4 @@
-class Book {
+class Book1 {
     constructor(
         public id: number,
         public title: string,
@@ -11,7 +11,7 @@ class Book {
     }
 }
 
-class Member {
+class Member1 {
     public lendedBooks: Book[] = [];
     constructor(
         public id: number,
@@ -30,7 +30,7 @@ class Member {
     }
 }
 
-class LendedBook {
+class LendedBook1 {
     constructor(
         public memberId: number,
         public bookId: number,
@@ -38,7 +38,7 @@ class LendedBook {
     ) {}
 }
 
-class Library {
+class Library1 {
     public books: Book[] = [];
     public members: Member[] = [];
 
@@ -54,7 +54,7 @@ class Library {
     }
 }
 
-const library = new Library();
+const library1 = new Library();
 
 const book1 = new Book(1, "Clean Code", "Robert C. Martin", 3, "available");
 const book2 = new Book(2, "The Pragmatic Programmer", "Andrew Hunt", 2, "available");

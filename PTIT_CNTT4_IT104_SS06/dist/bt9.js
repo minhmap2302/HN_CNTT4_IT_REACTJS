@@ -68,21 +68,16 @@ class Library {
 
 const library = new Library();
 
-// Thêm sách
 library.addBook(new Book(1, "Clean Code", "Robert C. Martin", 3, "available"));
 library.addBook(new Book(2, "The Pragmatic Programmer", "Andrew Hunt", 2, "available"));
 
-// Đăng ký thành viên
 library.registerMember(1, "Nguyen Van A", "a@example.com");
 library.registerMember(2, "Tran Thi B", "b@example.com");
 
-// Hiển thị thành viên
 console.log("Danh sách thành viên:");
 library.showMembers();
 
-// Khóa thành viên
 library.blockMember(1);
 
-// Hiển thị lại sau khi thay đổi trạng thái
 console.log("\nSau khi thay đổi trạng thái:");
 library.showMembers();
