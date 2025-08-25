@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 
-class Clock extends Component {
-  constructor(props) {
+interface ClockState {
+  time: Date;
+}
+
+class Clock extends Component<{}, ClockState> {
+  private timerID?: ReturnType<typeof setInterval>;
+
+  constructor(props: {}) {
     super(props);
     this.state = {
       time: new Date(),
@@ -13,7 +19,9 @@ class Clock extends Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.timerID);
+    if (this.timerID) {
+      clearInterval(this.timerID);
+    }
   }
 
   tick() {
@@ -22,13 +30,19 @@ class Clock extends Component {
     });
   }
 
+  private formatTime(num: number): string {
+    return String(num).padStart(2, "0");
+  }
+
   render() {
     const { time } = this.state;
     return (
       <div>
         <h2>
           Thời gian hiện tại:{" "}
-          {time.getHours()} : {time.getMinutes()} : {time.getSeconds()}
+          {this.formatTime(time.getHours())} :
+          {this.formatTime(time.getMinutes())} :
+          {this.formatTime(time.getSeconds())}
         </h2>
       </div>
     );

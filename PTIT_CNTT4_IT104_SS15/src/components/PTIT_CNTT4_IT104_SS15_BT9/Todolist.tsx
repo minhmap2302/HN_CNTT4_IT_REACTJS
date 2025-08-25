@@ -6,14 +6,13 @@ interface Task {
   completed: boolean;
 }
 
-const TodoApp: React.FC = () => {
+const Todolist: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [taskName, setTaskName] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
   const [showModal, setShowModal] = useState(false);
   const [taskToDelete, setTaskToDelete] = useState<number | null>(null);
 
-  // Load từ localStorage
   useEffect(() => {
     const stored = localStorage.getItem("tasks");
     if (stored) {
@@ -21,7 +20,6 @@ const TodoApp: React.FC = () => {
     }
   }, []);
 
-  // Lưu vào localStorage khi tasks thay đổi
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
@@ -148,4 +146,4 @@ const TodoApp: React.FC = () => {
   );
 };
 
-export default TodoApp;
+export default Todolist;
