@@ -1,0 +1,24 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-primary { background-color: #0d6efd; color: white; }
+.btn-secondary { background-color: #6c757d; color: white; }
+.btn-success { background-color: #198754; color: white; }
+.btn-warning { background-color: #ffc107; color: black; }
+.btn-danger { background-color: #dc3545; color: white; }
+.btn-info { background-color: #0dcaf0; color: black; }
+.btn-light { background-color: #f8f9fa; color: black; border: 1px solid #ddd; }
+.btn-dark { background-color: #212529; color: white; }
+.btn-link { background: none; color: #0d6efd; text-decoration: underline; }
