@@ -6,6 +6,7 @@ import Timer from './components/PTIT_CNTT4_IT104_SS20_BT5/Timer'
 import Modal from './components/PTIT_CNTT4_IT104_SS20_BT6/Model'
 import Counter from './components/PTIT_CNTT4_IT104_SS20_BT7/Counter'
 import UserForm from './components/PTIT_CNTT4_IT104_SS20_BT8/UserForm'
+import ArticleTracker from './components/PTIT_CNTT4_IT104_SS20_BT10/ArticleTracker'
 
 export default function App() {
   return (
@@ -26,6 +27,8 @@ export default function App() {
       <Counter/>
       bt8
       <UserForm/>
+      bt9
+      <ArticleTracker/>
     </div>
   )
 }
