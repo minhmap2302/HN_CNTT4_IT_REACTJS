@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import EditFilm from "./EditFilm";
 import DeleteFilm from "./DeleteFilm";
 
