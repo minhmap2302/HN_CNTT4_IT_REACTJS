@@ -247,7 +247,7 @@ export default function App() {
               </tbody>
             </table>
           </div>
-          <div className="mt-6 flex items-center justify-between text-sm text-gray-600">
+          <div className="mt-6 flex item-center justify-between text-sm text-gray-600">
             <div>
               Hiển thị 1 - {items.length} trong {items.length} bản ghi
             </div>
