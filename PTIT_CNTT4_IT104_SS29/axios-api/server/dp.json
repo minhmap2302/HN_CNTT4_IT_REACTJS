@@ -1,0 +1,76 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "student_name": "Nguyen Van A",
+      "email": "vana@example.com",
+      "address": "12 Tran Hung Dao, Ha Noi",
+      "phone": "0901000001",
+      "status": true,
+      "created_at": "2025-09-01T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "student_name": "Tran Thi B",
+      "email": "thib@example.com",
+      "address": "45 Le Loi, Ho Chi Minh",
+      "phone": "0901000002",
+      "status": false,
+      "created_at": "2025-09-02T09:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "student_name": "Le Van C",
+      "email": "vanc@example.com",
+      "address": "78 Phan Chu Trinh, Da Nang",
+      "phone": "0901000003",
+      "status": true,
+      "created_at": "2025-09-03T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "student_name": "Hoang Van E",
+      "email": "vane@example.com",
+      "address": "56 Ly Thuong Kiet, Ha Noi",
+      "phone": "0901000005",
+      "status": false,
+      "created_at": "2025-09-05T12:45:00.000Z"
+    },
+    {
+      "id": 6,
+      "student_name": "Nguyen Thi F",
+      "email": "thif@example.com",
+      "address": "89 Tran Phu, Hai Phong",
+      "phone": "0901000006",
+      "status": true,
+      "created_at": "2025-09-06T13:10:00.000Z"
+    },
+    {
+      "id": 7,
+      "student_name": "Do Van G",
+      "email": "vang@example.com",
+      "address": "101 Bach Dang, Da Nang",
+      "phone": "0901000007",
+      "status": true,
+      "created_at": "2025-09-07T14:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "student_name": "Bui Van I",
+      "email": "vani@example.com",
+      "address": "67 Hoang Hoa Tham, Vung Tau",
+      "phone": "0901000009",
+      "status": true,
+      "created_at": "2025-09-09T16:40:00.000Z"
+    },
+    {
+      "student_name": "nguyen van b",
+      "email": "b@gmail.com",
+      "address": "12 tran phu,hn",
+      "phone": "23214343",
+      "status": false,
+      "created_at": "2025-09-06",
+      "id": 10
+    }
+  ]
+}

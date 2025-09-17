@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "name": "NGuyen van A",
+      "id": 1,
+      "age": 12
+    },
+    {
+      "name": "NGuyen van B",
+      "id": 2,
+      "age": 12
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "cam",
+      "price": 1235634
+    }
+  ]
+}
